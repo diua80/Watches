@@ -29,7 +29,8 @@ body {
 
 .clock-arrow {
     position: absolute;
-    background-color:rgb(27, 7, 105);
+    background-color: rgb(209, 209, 203);
+    box-shadow: 5 5 5px 1px rgba(2, 2, 2, 0.596);
     transform-origin: bottom;
     transform: translateX(-50%);
     border-top-right-radius: 10px;
@@ -38,7 +39,8 @@ body {
 
 .clock-center {
     position: absolute;
-    background-color: rgb(25, 6, 113);
+    background-image: url("/src/images/centerOfWatch.png");
+    box-shadow: 0 0 2px 1px rgba(2, 2, 2, 0.596);
     top: 270px;
     left: 270px;
     width: 20px;
@@ -47,6 +49,8 @@ body {
 }
 
 .clock-seconds__arrow {
+    background-color: rgb(209, 209, 203);
+    box-shadow: 5 5 5px 1px rgba(2, 2, 2, 0.596);
     bottom: 50%;
     left: 50%;
     width: 5px;
@@ -70,23 +74,31 @@ body {
 .date {
     width: 100px;
     height: 100px;
-    color: black;
+    // color: rgb(216, 216, 221);
+    font-size: 42px;
 }
 
 .calendar {
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
+    // color: rgb(224, 224, 218);
 }
 
 .date-style {
     display: flex;
     font-size: 40px;
-    font-weight: 900;
-    text-shadow: 3px 3px 2px #cecbcd;
+    font-weight: 400;
+    color: bisque;
+    text-shadow: 3px 3px 2px #1f1f1fcd;
 }
 
 .digital-clock {
+    color: rgb(224, 224, 218);
+    text-shadow: 5px 5px 5px rgba(2, 2, 2, 0.596);
     text-align: center;
     font-size: 60px;
-    text-shadow: 3px 3px 2px #cecbcd;
 }
+// .date-day{
+//     margin: 10px;
+// }
