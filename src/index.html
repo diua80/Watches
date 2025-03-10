@@ -8,8 +8,31 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <h1>Example title</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="calendar">
+      <div class="date-style">
+        День тижня:
+        <div class="date-day">0</div>
+      </div>
+      <div class="date-style">
+        День місяця:
+        <div class="date">0</div>
+      </div>
+      <div class="date-style">
+        Місяць:
+        <div class="date-month">0</div>
+      </div>
+      <div class="date-style">
+        Рік:
+        <div class="date-year">0</div>
+      </div>
+    </div>
+    <div class="digital-clock">0</div>
+    <div class="clock">
+      <div class="clock-arrow clock-seconds__arrow"></div>
+      <div class="clock-arrow clock-minutes__arrow"></div>
+      <div class="clock-arrow clock-hours__arrow"></div>
+      <div class="clock-center"></div>
+    </div>
+    
   </body>
 </html>
